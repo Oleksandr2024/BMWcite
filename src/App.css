@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+}
+
+.App{
+  display: grid;
+  grid-template-areas: 
+  "n n n n n"
+  "c c c c c"
+  "f f f f f";
+  grid-template-rows: 1fr 5fr 1fr;
+}
+
+.navbar{
+  grid-area: n;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: wrap;
+  /* height: 15vh; */
+  background-color: rgb(235, 242, 239);
+}
+
+.navbar img{
+  width: 100px;
+  overflow: visible;
+  height: 100px;
+  padding: 10px;
+  margin-left: 5%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.nav--links{
+ margin-left: auto;
+ padding-right: 10%;
+ padding-top: 30px;
+}
+
+.nav--links a{
+  margin: 15px;
+  color: black;
+  font-size: 1.7rem;
+  text-align: center;
+  text-decoration: none;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.content{
+  grid-area: c;
+  /* height: 50vh; */
+  background-color:rgb(231, 226, 236)
+}
+
+.footer{
+  grid-area: f;
+  /* height: 10vh; */
+  background-color:rgb(192, 192, 192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a{
+  font-size: 2rem;
+  margin: 0 15px;
+}
+
+footer a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.home{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: rgb(119, 186, 186);
+  background-image: url(src/Images/Home-background.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  height: 100%;
+  width: 100vw;
+
+}
+
+.first-div{
+  width: 75vw;
+  padding: 160px;
+}
