@@ -9,12 +9,13 @@ export default function Model(props){
     }
 
     const sourcePhoto = props.image[color]
+    const direction = "model-details-" + props.model 
 
     return(
-        <Link to="/model-details" className="model-link">
+        <Link to={direction} className="model-link">
         <div className="model">
             
-            <h2>{props.make} {props.model}</h2>
+            <h2>{props.make} {props.model} Series </h2>
             <br />
             <p>from {color=== "black" ?
               props.price :
@@ -25,17 +26,19 @@ export default function Model(props){
           <form > 
           <label>
            color:
-           <select className="color-select" value={color} onChange={handleChange}>   
-             <option value="black">Black</option>
-             <option value="white">White</option>
-             <option value="blue">Blue</option>
-             <option value="red">Red</option>
+           <select 
+              className="color-select" 
+              value={color} 
+              onChange={handleChange}>   
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
            </select>
          </label>
        </form>
        <br />
             <p className="model-down-p">Click for more information and configure...</p>
-
         </div>
         </Link>
     )

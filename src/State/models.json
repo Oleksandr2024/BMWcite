@@ -1,0 +1,78 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "make": "BMW",
+        "model": "3 Series",
+        "color": "Black",
+        "price": 40000,
+        "image": "src"
+      },
+      {
+        "id": 2,
+        "make": "BMW",
+        "model": "4 Series",
+        "color": "Black",
+        "price": 50000,
+        "image": "src"
+            },
+      {
+        "id": 3,
+        "make": "BMW",
+        "model": "5 Series",
+        "color": "Black",
+        "price": 52000,
+        "image": "src"
+      },
+      {
+        "id": 4,
+        "make": "BMW",
+        "model": "7 Series",
+        "color": "Black",
+        "price": 90000,
+        "image": "src"
+      },
+      {
+        "id": 5,
+        "make": "BMW",
+        "model": "8 Series",
+        "color": "Black",
+        "price": 110000,
+        "image": "src"
+      },
+      {
+        "id": 6,
+        "make": "BMW",
+        "model": "X3 Series",
+        "color": "Black",
+        "price": 50000,
+        "image": "src"
+      },
+      {
+        "id": 7,
+        "make": "BMW",
+        "model": "X5 Series",
+        "color": "Black",
+        "price": 80000,
+        "image": "src"
+      },
+      {
+        "id": 8,
+        "make": "BMW",
+        "model": "X6 Series",
+        "color": "Black",
+        "price": 85000,
+        "image": "src"
+      },
+      {
+        "id": 9,
+        "make": "BMW",
+        "model": "X7 Series",
+        "color": "Black",
+        "price": 105000,
+        "image": "src"
+      }
+    ]
+  }
+
+

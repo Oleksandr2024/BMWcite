@@ -1,10 +1,11 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Model from "./Model"
 import { data } from "../State/state"
 
+
 export default function Models(){
 
-     const [carModels, setCarModels] = useState(data.cars)
+     const [carModels] = useState(data.cars)
 
 
     // useEffect(()=>{
@@ -14,7 +15,6 @@ export default function Models(){
 
     // }, [])
 
-    console.log(data.cars)
 
     const models = carModels.map( car => {
         return <Model

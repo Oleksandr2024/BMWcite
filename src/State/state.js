@@ -3,7 +3,7 @@ export const data = {
         {
           id: 1,
           make: "BMW",
-          model: "3 Series",
+          model: "3",
           color: "black",
           price: 40000,
           image: {
@@ -16,7 +16,7 @@ export const data = {
         {
           id: 2,
           make: "BMW",
-          model: "4 Series",
+          model: "4",
           color: "black",
           price: 50000,
           image: {
@@ -29,7 +29,7 @@ export const data = {
         {
           id: 3,
           make: "BMW",
-          model: "5 Series",
+          model: "5",
           color: "black",
           price: 52000,
           image: {
@@ -42,7 +42,7 @@ export const data = {
         {
           id: 4,
           make: "BMW",
-          model: "7 Series",
+          model: "7",
           color: "black",
           price: 90000,
           image: {
@@ -55,7 +55,7 @@ export const data = {
         {
           id: 5,
           make: "BMW",
-          model: "8 Series",
+          model: "8",
           color: "black",
           price: 110000,
           image: {
@@ -68,7 +68,7 @@ export const data = {
         {
           id: 6,
           make: "BMW",
-          model: "X3 Series",
+          model: "X3",
           color: "black",
           price: 50000,
           image: {
@@ -81,7 +81,7 @@ export const data = {
         {
           id: 7,
           make: "BMW",
-          model: "X5 Series",
+          model: "X5",
           color: "black",
           price: 80000,
           image: {
@@ -94,7 +94,7 @@ export const data = {
         {
           id: 8,
           make: "BMW",
-          model: "X6 Series",
+          model: "X6",
           color: "black",
           price: 85000,
           image: {
@@ -107,7 +107,7 @@ export const data = {
         {
           id: 9,
           make: "BMW",
-          model: "X7 Series",
+          model: "X7",
           color: "black",
           price: 105000,
           image: {

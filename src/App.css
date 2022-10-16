@@ -8,7 +8,7 @@
   "n n n n n"
   "c c c c c"
   "f f f f f";
-  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-rows: 1fr auto 2fr;
 }
 
 .navbar{
@@ -16,15 +16,15 @@
   display: flex;
   flex-direction: row;
   flex: 1;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   /* height: 15vh; */
   background-color: rgb(235, 242, 239);
 }
 
 .navbar img{
-  width: 100px;
-  overflow: visible;
-  height: 100px;
+  width: 8vw;
+
+  height: 15vh;
   padding: 10px;
   margin-left: 5%;
   align-items: center;
@@ -35,13 +35,13 @@
 .nav--links{
  margin-left: auto;
  padding-right: 10%;
- padding-top: 30px;
+ padding-top: 50px;
 }
 
 .nav--links a{
-  margin: 15px;
+  margin: 25px;
   color: black;
-  font-size: 1.7rem;
+  font-size: 2rem;
   text-align: center;
   text-decoration: none;
   /* align-items: center;
@@ -51,7 +51,9 @@
 .content{
   grid-area: c;
   /* height: 50vh; */
-  background-color:rgb(231, 226, 236)
+  background-color:rgb(237, 234, 234);
+  width: 100%;
+  border-top: 5px solid rgb(188, 133, 97);
 }
 
 .footer{
@@ -76,18 +78,90 @@ footer a:visited{
 .home{
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  background-color: rgb(119, 186, 186);
-  background-image: url(src/Images/Home-background.jpeg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 0.4;
+  justify-content: flex-start;
+  background-color: rgb(211, 207, 212);
   height: 100%;
-  width: 100vw;
-
+  width: 100%;
+  min-height: 700px;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
 }
 
-.first-div{
-  width: 75vw;
-  padding: 160px;
+.home-button{
+  width: 15vw;
+  height: 4vh;
+  margin-top: 10px;
+  margin-left: 20%;
+  font-size: 1.3rem;
+}
+
+.second-div{
+  width: 60%;
+  background-image: url(src/Images/Home-background.jpeg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  /* opacity: 0.7; */
+  margin: 3vh 1vw 3vh 1vw;
+}
+
+.home-left{
+  width: 40%;
+  padding: 2% 1% 2% 2%;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.models{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.model{
+  text-align: center;
+  margin-top: 5vh;
+  padding-top: 3vh;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  width: 100%;
+  max-width: 550px;
+  height: 700px;
+  font-size: 1.5rem;
+}
+
+.model-link{
+  text-decoration: none;
+  color: black;
+}
+
+.color-select{
+  margin-left: 1vw;
+  padding-top: 2px;
+  width: 7vw;
+  height: 4vh;
+  font-size: 1.2rem;
+  border: none;
+  background-color: rgb(237, 235, 238);
+  border-radius: 9px;
+  letter-spacing: 1px;
+  text-indent: 10px;
+}
+
+.model:hover{
+  background-color: white;
+}
+
+.model-image{
+  width: 90%;
+  max-height: 60%;
+  min-height: 55%;
+  margin-top: 10%;
+}
+
+.model-down-p{
+  font-size: 1.3rem;
 }
