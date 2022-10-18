@@ -1,17 +1,26 @@
-import { Link } from "react-router-dom";
-
+import { NavLink } from "react-router-dom";
 
 export default function Navbar(){
     return(
         <div className="navbar">
             <img src="src/Images/BMW.svg.webp" alt="Bmw logo" />
             <div className="nav--links">
-                <Link to="/">Home</Link>
-                <Link to="/models">Models</Link>
-                <Link to="/history">History</Link>
+                <NavLink to="home"
+                        style={({isActive})=>({color: isActive? "rgb(41, 85, 135)" : "black"})}>
+                            Home</NavLink>
+                <NavLink to="/models" 
+                        style={({isActive})=>({color: isActive? "rgb(41, 85, 135)" : "black"})}>
+                            Models</NavLink>
+                <NavLink to="/history" 
+                        style={({isActive})=>({color: isActive? "rgb(41, 85, 135)" : "black"})}>
+                            History</NavLink>
             </div>
         </div>
     )
 }
 
-//https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQPFWp9QP6QVZPxXkwnlMkDaEeO0xcDbNCohR8tHk1AFhs_sythTg9DgQ_gsisZSe19zY&usqp=CAU
+// style = { can take function as a parameter, function must return an object }
+// style = { (object) => ({object}) } ...make destructuring from object ({isActive})
+// style={ ({isActive}) => ({color: isActive? "rgb(41, 85, 135)" : "black"}) }
+
+// className = { (isActive) => isActive? "anyClassName" : "" }  if we want to use css classes
