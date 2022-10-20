@@ -8,6 +8,8 @@ export default function Model(props){
             setColor(event.target.value)
     }
 
+console.log(props.model)
+
     const sourcePhoto = props.image[color]
     const direction = "model-details-" + props.model 
 
@@ -15,7 +17,7 @@ export default function Model(props){
         <Link to={direction} className="model-link">
         <div className="model">
             
-            <h2>{props.make} {props.model} Series </h2>
+            <h2>{props.make} {props.model} </h2>
             <br />
             <p>from {color=== "black" ?
               props.price :

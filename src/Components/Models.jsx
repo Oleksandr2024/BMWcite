@@ -1,19 +1,18 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Model from "./Model"
-import { data } from "../State/state"
 
 
 export default function Models(){
 
-     const [carModels] = useState(data.cars)
+     const [carModels, setCarModels] = useState([])
 
 
-    // useEffect(()=>{
-    //     fetch("src/State/models.json")
-    //         .then(res => res.json())
-    //         .then(data => setCarModels(data.cars))
+    useEffect(()=>{
+        fetch("src/State/models.json")
+            .then(res => res.json())
+            .then(data => setCarModels(data.cars))
 
-    // }, [])
+    }, [])
 
 
     const models = carModels.map( car => {

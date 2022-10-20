@@ -3,74 +3,119 @@
       {
         "id": 1,
         "make": "BMW",
-        "model": "3 Series",
-        "color": "Black",
+        "model": "3",
+        "color": "black",
         "price": 40000,
-        "image": "src"
+        "image": {
+          "black": "src/Images/BMW3series.jpg",
+          "white": "src/Images/BMW3seriesWhite.jpg",
+          "blue": "src/Images/BMW3seriesBlue.jpg",
+          "red": "src/Images/BMW3seriesRed.jpg"          
+        }
       },
       {
         "id": 2,
         "make": "BMW",
-        "model": "4 Series",
-        "color": "Black",
+        "model": "4",
+        "color": "black",
         "price": 50000,
-        "image": "src"
+        "image": {
+          "black": "src/Images/BMW4series.jpeg",
+          "white": "src/Images/BMW4seriesWhite.jpeg",
+          "blue": "src/Images/BMW4seriesBlue.jpeg",
+          "red": "src/Images/BMW4seriesRed.jpeg"          
+        }
             },
       {
         "id": 3,
         "make": "BMW",
-        "model": "5 Series",
-        "color": "Black",
+        "model": "5",
+        "color": "black",
         "price": 52000,
-        "image": "src"
+        "image": {
+          "black": "src/Images/BMW5series.jpg",
+          "white": "src/Images/BMW5seriesWhite.jpg",
+          "blue": "src/Images/BMW5seriesBlue.jpg",
+          "red": "src/Images/BMW5seriesRed.jpg"          
+        }
       },
       {
         "id": 4,
         "make": "BMW",
-        "model": "7 Series",
-        "color": "Black",
+        "model": "7",
+        "color": "black",
         "price": 90000,
-        "image": "src"
+        "image": {
+          "black": "src/Images/BMW7series.jpg",
+          "white": "src/Images/BMW7seriesWhite.jpg",
+          "blue": "src/Images/BMW7seriesBlue.jpg",
+          "red": "src/Images/BMW7seriesRed.jpg"          
+        }
       },
       {
         "id": 5,
         "make": "BMW",
-        "model": "8 Series",
-        "color": "Black",
+        "model": "8",
+        "color": "black",
         "price": 110000,
-        "image": "src"
+        "image": {
+          "black": "src/Images/BMW8Series.webp",
+          "white": "src/Images/BMW8seriesWhite.jpg",
+          "blue": "src/Images/BMW8seriesBlue.jpg",
+          "red": "src/Images/BMW8seriesRed.jpg"          
+        }
       },
       {
         "id": 6,
         "make": "BMW",
-        "model": "X3 Series",
-        "color": "Black",
+        "model": "X3",
+        "color": "black",
         "price": 50000,
-        "image": "src"
+        "image": {
+          "black": "src/Images/BMWX3series.jpg",
+          "white": "src/Images/BMWX3seriesWhite.jpg",
+          "blue": "src/Images/BMWX3seriesBlue.jpg",
+          "red": "src/Images/BMWX3seriesRed.jpg"          
+        }
       },
       {
         "id": 7,
         "make": "BMW",
-        "model": "X5 Series",
-        "color": "Black",
+        "model": "X5",
+        "color": "black",
         "price": 80000,
-        "image": "src"
+        "image": {
+          "black": "src/Images/BMWX5series.jpg",
+          "white": "src/Images/BMWX5seriesWhite.jpg",
+          "blue": "src/Images/BMWX5seriesBlue.jpg",
+          "red": "src/Images/BMWX5seriesRed.jpg"          
+        }
       },
       {
         "id": 8,
         "make": "BMW",
-        "model": "X6 Series",
-        "color": "Black",
+        "model": "X6",
+        "color": "black",
         "price": 85000,
-        "image": "src"
+        "image": {
+          "black": "src/Images/BMWX6series.jpg",
+          "white": "src/Images/BMWX6seriesWhite.jpg",
+          "blue": "src/Images/BMWX6seriesBlue.jpg",
+          "red": "src/Images/BMWX6seriesRed.jpg"          
+        }
       },
       {
         "id": 9,
         "make": "BMW",
-        "model": "X7 Series",
-        "color": "Black",
+        "model": "X7",
+        "color": "black",
         "price": 105000,
-        "image": "src"
+        "image": {
+          "black": "src/Images/BMWX7series.jpg",
+          "white": "src/Images/BMWX7seriesWhite.jpg",
+          "blue": "src/Images/BMWX7seriesBlue.jpg",
+          "red": "src/Images/BMWX7seriesRed.jpg"          
+        }
       }
     ]
   }
